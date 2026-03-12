@@ -443,23 +443,23 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
-      "domain/1.0.0": {
+      "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "compile": {
-          "bin/placeholder/domain.dll": {}
+          "bin/placeholder/Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/domain.dll": {}
+          "bin/placeholder/Domain.dll": {}
         }
       },
       "Persistence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
+          "Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "10.0.3",
-          "Microsoft.EntityFrameworkCore.Sqlite": "10.0.3",
-          "domain": "1.0.0"
+          "Microsoft.EntityFrameworkCore.Sqlite": "10.0.3"
         },
         "compile": {
           "bin/placeholder/Persistence.dll": {}
@@ -1027,10 +1027,10 @@
         "sqlitepclraw.provider.e_sqlite3.nuspec"
       ]
     },
-    "domain/1.0.0": {
+    "Domain/1.0.0": {
       "type": "project",
-      "path": "../Domain/domain.csproj",
-      "msbuildProject": "../Domain/domain.csproj"
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
     },
     "Persistence/1.0.0": {
       "type": "project",
@@ -1040,8 +1040,8 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Persistence >= 1.0.0",
-      "domain >= 1.0.0"
+      "Domain >= 1.0.0",
+      "Persistence >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1077,8 +1077,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "G:\\ASP&React\\My_Projects\\Reactivities\\Domain\\domain.csproj": {
-              "projectPath": "G:\\ASP&React\\My_Projects\\Reactivities\\Domain\\domain.csproj"
+            "G:\\ASP&React\\My_Projects\\Reactivities\\Domain\\Domain.csproj": {
+              "projectPath": "G:\\ASP&React\\My_Projects\\Reactivities\\Domain\\Domain.csproj"
             },
             "G:\\ASP&React\\My_Projects\\Reactivities\\Persistence\\Persistence.csproj": {
               "projectPath": "G:\\ASP&React\\My_Projects\\Reactivities\\Persistence\\Persistence.csproj"
