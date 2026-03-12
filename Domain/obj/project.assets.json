@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\ASP&React\\My_Projects\\Reactivities\\Domain\\Domain.csproj",
+      "projectUniqueName": "G:\\ASPReact\\My_Projects\\Reactivities\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "G:\\ASP&React\\My_Projects\\Reactivities\\Domain\\Domain.csproj",
+      "projectPath": "G:\\ASPReact\\My_Projects\\Reactivities\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\haris\\.nuget\\packages\\",
-      "outputPath": "G:\\ASP&React\\My_Projects\\Reactivities\\Domain\\obj\\",
+      "outputPath": "G:\\ASPReact\\My_Projects\\Reactivities\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
