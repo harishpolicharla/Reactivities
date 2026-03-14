@@ -66,3 +66,12 @@ Persistence/obj/Debug/net10.0/Persistence.pdb
 Persistence/obj/Debug/net10.0/Persistence.csproj.CoreCompileInputs.cache
 Persistence/obj/Debug/net10.0/Persistence.csproj.AssemblyReference.cache
 Persistence/obj/project.assets.json
+package-lock.json
+Domain/obj/project.assets.json
+Domain/obj/Debug/net10.0/domain.sourcelink.json
+Persistence/obj/Debug/net10.0/Persistence.sourcelink.json
+Domain/obj/Debug/net10.0/domain.sourcelink.json
+Domain/obj/project.assets.json
+Domain/obj/Debug/net10.0/domain.sourcelink.json
+client/package-lock.json
+Application/obj/Debug/net10.0/Application.sourcelink.json
