@@ -1107,43 +1107,36 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\haris\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/harishkumar/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\aspreact\\my_projects\\reactivities\\Application\\Application.csproj",
+      "projectUniqueName": "/Users/Reactivities/Reactivities/Application/Application.csproj",
       "projectName": "Application",
-      "projectPath": "G:\\aspreact\\my_projects\\reactivities\\Application\\Application.csproj",
-      "packagesPath": "C:\\Users\\haris\\.nuget\\packages\\",
-      "outputPath": "G:\\aspreact\\my_projects\\reactivities\\Application\\obj\\",
+      "projectPath": "/Users/Reactivities/Reactivities/Application/Application.csproj",
+      "packagesPath": "/Users/harishkumar/.nuget/packages/",
+      "outputPath": "/Users/Reactivities/Reactivities/Application/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\haris\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/harishkumar/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "G:\\aspreact\\my_projects\\reactivities\\Domain\\domain.csproj": {
-              "projectPath": "G:\\aspreact\\my_projects\\reactivities\\Domain\\domain.csproj"
+            "/Users/Reactivities/Reactivities/Domain/domain.csproj": {
+              "projectPath": "/Users/Reactivities/Reactivities/Domain/domain.csproj"
             },
-            "G:\\aspreact\\my_projects\\reactivities\\Persistence\\Persistence.csproj": {
-              "projectPath": "G:\\aspreact\\my_projects\\reactivities\\Persistence\\Persistence.csproj"
+            "/Users/Reactivities/Reactivities/Persistence/Persistence.csproj": {
+              "projectPath": "/Users/Reactivities/Reactivities/Persistence/Persistence.csproj"
             }
           }
         }
@@ -1158,7 +1151,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net10.0": {
@@ -1185,7 +1178,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.200/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
