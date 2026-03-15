@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Application.Activities.Commands;
+using Application.Activities.Queries;
 using Domain;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -14,9 +15,9 @@ namespace API.Controllers
     public class ActivitiesController : BaseApiController
     {
         [HttpGet]
-        public async Task<ActionResult<List<Activity>>> GetActivities()
+        public async Task<ActionResult<List<Activity>>> GetActivities(CancellationToken ct)
         {
-            return await Mediator.Send(new Application.Activities.Queries.GetActivityList.Query());
+            return await Mediator.Send(new GetActivityList.Query(), ct);
         }
 
         [HttpGet("{id}")]
@@ -30,6 +31,22 @@ namespace API.Controllers
         public async Task<ActionResult<string>> CreateActivity(Activity activity)
         {
             return await Mediator.Send(new CreateActivity.Command { Activity = activity });
+        }
+
+        [HttpPut]
+        public async Task<ActionResult> EditActivity(Activity activity)
+        {
+            await Mediator.Send(new EditActivity.Command { Activity = activity });
+
+            return NoContent();
+        }
+
+        [HttpDelete("{Id}")]
+        public async Task<ActionResult> DeleteActivity(string id)
+        {
+            await Mediator.Send(new DeleteActivity.Command { Id = id });
+
+            return Ok();
         }
     }
 }
